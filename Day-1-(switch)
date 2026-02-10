@@ -1,0 +1,21 @@
+let day = "     tuesday     ";
+
+switch (day.toLowerCase().trim()) {
+    case "friday":
+    case "saturday":
+    case "sunday":
+        console.log("No Appointments Available")
+        break;
+    case "monday":
+    case "thursday":
+        console.log("From 10:00 AM To 5:00 PM")
+        break;
+    case "tuesday":
+        console.log("From 10:00 AM To 6:00 PM")
+        break;
+    case "wednesday":
+        console.log("From 10:00 AM To 7:00 PM")
+        break;
+    default:
+        console.log("Its Not A Valid Day")
+}
