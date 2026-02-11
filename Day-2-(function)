@@ -1,0 +1,32 @@
+function checkStatus(a, b, c) {
+    let name = "";
+    let age = 0;
+    let status = false;
+    if (typeof a === "string") {
+        console.log(name = a)
+    } else if (typeof a === "number") {
+        console.log(age = a)
+    } else {
+        console.log(status = a)
+    }
+    if (typeof b === "string") {
+        console.log(name = b)
+    } else if (typeof b === "number") {
+        console.log(age = b)
+    } else {
+        console.log(status = b)
+    }
+    if (typeof c === "string") {
+        console.log(name = c)
+    } else if (typeof c === "number") {
+        console.log(age = c)
+    } else {
+        console.log(status = c)
+    }
+    console.log(`Hello ${name}, Your Age Is ${age}, You Are ${status ? "Available" : "Not Available"}`);
+}
+
+checkStatus("Osama", 38, true);
+checkStatus(38, "Osama", true);
+checkStatus(true, 38, "Osama");
+checkStatus(false, "Osama", 38);
