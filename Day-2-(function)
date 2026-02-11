@@ -26,7 +26,7 @@ function checkStatus(a, b, c) {
     console.log(`Hello ${name}, Your Age Is ${age}, You Are ${status ? "Available" : "Not Available"}`);
 }
 
-checkStatus("Osama", 38, true);
-checkStatus(38, "Osama", true);
-checkStatus(true, 38, "Osama");
-checkStatus(false, "Osama", 38);
+checkStatus("Eyad", 17, true);
+checkStatus(19, "Mohamed", true);
+checkStatus(true, 18, "Yussef");
+checkStatus(false, "Max", 20);
