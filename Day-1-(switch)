@@ -1,4 +1,4 @@
-let day = "     tuesday     ";
+let day = "     tuesday    ";
 
 switch (day.toLowerCase().trim()) {
     case "friday":
